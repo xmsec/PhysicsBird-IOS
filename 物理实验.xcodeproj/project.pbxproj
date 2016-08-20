@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD6C94C41D251C8C00AD43CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6C94C31D251C8C00AD43CA /* AppDelegate.swift */; };
+		CD6C94C61D251C8C00AD43CA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6C94C51D251C8C00AD43CA /* FirstViewController.swift */; };
+		CD6C94C81D251C8C00AD43CA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6C94C71D251C8C00AD43CA /* SecondViewController.swift */; };
+		CD6C94CB1D251C8C00AD43CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6C94C91D251C8C00AD43CA /* Main.storyboard */; };
+		CD6C94CD1D251C8C00AD43CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD6C94CC1D251C8C00AD43CA /* Assets.xcassets */; };
+		CD6C94D01D251C8C00AD43CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6C94CE1D251C8C00AD43CA /* LaunchScreen.storyboard */; };
+		CD6C94DB1D251C8C00AD43CA /* ____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6C94DA1D251C8C00AD43CA /* ____Tests.swift */; };
+		CD6C94E61D251C8C00AD43CA /* ____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6C94E51D251C8C00AD43CA /* ____UITests.swift */; };
+		CD7B390A1D55D9BB00DD0287 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7B39091D55D9BB00DD0287 /* Toast.swift */; };
+		CD7B390C1D55D9D000DD0287 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7B390B1D55D9D000DD0287 /* QuartzCore.framework */; };
+		CDCDB8C01D45181C007B954D /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCDB8BF1D45181C007B954D /* ThirdViewController.swift */; };
+		CDD9D3B41D574FD500BAD8D9 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD9D3B31D574FD500BAD8D9 /* About.swift */; };
+		CDEC5E651D48E8200012F7A1 /* ForthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEC5E641D48E8200012F7A1 /* ForthViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD6C94D71D251C8C00AD43CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD6C94B81D251C8C00AD43CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD6C94BF1D251C8C00AD43CA;
+			remoteInfo = "物理实验";
+		};
+		CD6C94E21D251C8C00AD43CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD6C94B81D251C8C00AD43CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD6C94BF1D251C8C00AD43CA;
+			remoteInfo = "物理实验";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD6C94C01D251C8C00AD43CA /* 物理实验.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "物理实验.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6C94C31D251C8C00AD43CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD6C94C51D251C8C00AD43CA /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		CD6C94C71D251C8C00AD43CA /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CD6C94CA1D251C8C00AD43CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD6C94CC1D251C8C00AD43CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD6C94CF1D251C8C00AD43CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD6C94D11D251C8C00AD43CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD6C94D61D251C8C00AD43CA /* 物理实验Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "物理实验Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6C94DA1D251C8C00AD43CA /* ____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____Tests.swift"; sourceTree = "<group>"; };
+		CD6C94DC1D251C8C00AD43CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD6C94E11D251C8C00AD43CA /* 物理实验UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "物理实验UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6C94E51D251C8C00AD43CA /* ____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____UITests.swift"; sourceTree = "<group>"; };
+		CD6C94E71D251C8C00AD43CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD7B39091D55D9BB00DD0287 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = "../../../Downloads/Toast-Swift-master/Toast/Toast.swift"; sourceTree = "<group>"; };
+		CD7B390B1D55D9D000DD0287 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CDCDB8BF1D45181C007B954D /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		CDD9D3B31D574FD500BAD8D9 /* About.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		CDEC5E641D48E8200012F7A1 /* ForthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForthViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD6C94BD1D251C8C00AD43CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7B390C1D55D9D000DD0287 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6C94D31D251C8C00AD43CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6C94DE1D251C8C00AD43CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD6C94B71D251C8C00AD43CA = {
+			isa = PBXGroup;
+			children = (
+				CD7B390B1D55D9D000DD0287 /* QuartzCore.framework */,
+				CD6C94C21D251C8C00AD43CA /* 物理实验 */,
+				CD6C94D91D251C8C00AD43CA /* 物理实验Tests */,
+				CD6C94E41D251C8C00AD43CA /* 物理实验UITests */,
+				CD6C94C11D251C8C00AD43CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD6C94C11D251C8C00AD43CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD6C94C01D251C8C00AD43CA /* 物理实验.app */,
+				CD6C94D61D251C8C00AD43CA /* 物理实验Tests.xctest */,
+				CD6C94E11D251C8C00AD43CA /* 物理实验UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD6C94C21D251C8C00AD43CA /* 物理实验 */ = {
+			isa = PBXGroup;
+			children = (
+				CD6C94C31D251C8C00AD43CA /* AppDelegate.swift */,
+				CD6C94C51D251C8C00AD43CA /* FirstViewController.swift */,
+				CD7B39091D55D9BB00DD0287 /* Toast.swift */,
+				CD6C94C71D251C8C00AD43CA /* SecondViewController.swift */,
+				CD6C94C91D251C8C00AD43CA /* Main.storyboard */,
+				CDD9D3B31D574FD500BAD8D9 /* About.swift */,
+				CDCDB8BF1D45181C007B954D /* ThirdViewController.swift */,
+				CDEC5E641D48E8200012F7A1 /* ForthViewController.swift */,
+				CD6C94CC1D251C8C00AD43CA /* Assets.xcassets */,
+				CD6C94CE1D251C8C00AD43CA /* LaunchScreen.storyboard */,
+				CD6C94D11D251C8C00AD43CA /* Info.plist */,
+			);
+			path = "物理实验";
+			sourceTree = "<group>";
+		};
+		CD6C94D91D251C8C00AD43CA /* 物理实验Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CD6C94DA1D251C8C00AD43CA /* ____Tests.swift */,
+				CD6C94DC1D251C8C00AD43CA /* Info.plist */,
+			);
+			path = "物理实验Tests";
+			sourceTree = "<group>";
+		};
+		CD6C94E41D251C8C00AD43CA /* 物理实验UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD6C94E51D251C8C00AD43CA /* ____UITests.swift */,
+				CD6C94E71D251C8C00AD43CA /* Info.plist */,
+			);
+			path = "物理实验UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD6C94BF1D251C8C00AD43CA /* 物理实验 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6C94EA1D251C8C00AD43CA /* Build configuration list for PBXNativeTarget "物理实验" */;
+			buildPhases = (
+				CD6C94BC1D251C8C00AD43CA /* Sources */,
+				CD6C94BD1D251C8C00AD43CA /* Frameworks */,
+				CD6C94BE1D251C8C00AD43CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "物理实验";
+			productName = "物理实验";
+			productReference = CD6C94C01D251C8C00AD43CA /* 物理实验.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD6C94D51D251C8C00AD43CA /* 物理实验Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6C94ED1D251C8C00AD43CA /* Build configuration list for PBXNativeTarget "物理实验Tests" */;
+			buildPhases = (
+				CD6C94D21D251C8C00AD43CA /* Sources */,
+				CD6C94D31D251C8C00AD43CA /* Frameworks */,
+				CD6C94D41D251C8C00AD43CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD6C94D81D251C8C00AD43CA /* PBXTargetDependency */,
+			);
+			name = "物理实验Tests";
+			productName = "物理实验Tests";
+			productReference = CD6C94D61D251C8C00AD43CA /* 物理实验Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD6C94E01D251C8C00AD43CA /* 物理实验UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6C94F01D251C8C00AD43CA /* Build configuration list for PBXNativeTarget "物理实验UITests" */;
+			buildPhases = (
+				CD6C94DD1D251C8C00AD43CA /* Sources */,
+				CD6C94DE1D251C8C00AD43CA /* Frameworks */,
+				CD6C94DF1D251C8C00AD43CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD6C94E31D251C8C00AD43CA /* PBXTargetDependency */,
+			);
+			name = "物理实验UITests";
+			productName = "物理实验UITests";
+			productReference = CD6C94E11D251C8C00AD43CA /* 物理实验UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD6C94B81D251C8C00AD43CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xiaomo;
+				TargetAttributes = {
+					CD6C94BF1D251C8C00AD43CA = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4Y365HKJL5;
+					};
+					CD6C94D51D251C8C00AD43CA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CD6C94BF1D251C8C00AD43CA;
+					};
+					CD6C94E01D251C8C00AD43CA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CD6C94BF1D251C8C00AD43CA;
+					};
+				};
+			};
+			buildConfigurationList = CD6C94BB1D251C8C00AD43CA /* Build configuration list for PBXProject "物理实验" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD6C94B71D251C8C00AD43CA;
+			productRefGroup = CD6C94C11D251C8C00AD43CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD6C94BF1D251C8C00AD43CA /* 物理实验 */,
+				CD6C94D51D251C8C00AD43CA /* 物理实验Tests */,
+				CD6C94E01D251C8C00AD43CA /* 物理实验UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD6C94BE1D251C8C00AD43CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6C94D01D251C8C00AD43CA /* LaunchScreen.storyboard in Resources */,
+				CD6C94CD1D251C8C00AD43CA /* Assets.xcassets in Resources */,
+				CD6C94CB1D251C8C00AD43CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6C94D41D251C8C00AD43CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6C94DF1D251C8C00AD43CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD6C94BC1D251C8C00AD43CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDEC5E651D48E8200012F7A1 /* ForthViewController.swift in Sources */,
+				CD7B390A1D55D9BB00DD0287 /* Toast.swift in Sources */,
+				CDD9D3B41D574FD500BAD8D9 /* About.swift in Sources */,
+				CD6C94C81D251C8C00AD43CA /* SecondViewController.swift in Sources */,
+				CD6C94C41D251C8C00AD43CA /* AppDelegate.swift in Sources */,
+				CDCDB8C01D45181C007B954D /* ThirdViewController.swift in Sources */,
+				CD6C94C61D251C8C00AD43CA /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6C94D21D251C8C00AD43CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6C94DB1D251C8C00AD43CA /* ____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6C94DD1D251C8C00AD43CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6C94E61D251C8C00AD43CA /* ____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD6C94D81D251C8C00AD43CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD6C94BF1D251C8C00AD43CA /* 物理实验 */;
+			targetProxy = CD6C94D71D251C8C00AD43CA /* PBXContainerItemProxy */;
+		};
+		CD6C94E31D251C8C00AD43CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD6C94BF1D251C8C00AD43CA /* 物理实验 */;
+			targetProxy = CD6C94E21D251C8C00AD43CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD6C94C91D251C8C00AD43CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6C94CA1D251C8C00AD43CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD6C94CE1D251C8C00AD43CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6C94CF1D251C8C00AD43CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD6C94E81D251C8C00AD43CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD6C94E91D251C8C00AD43CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD6C94EB1D251C8C00AD43CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "物理实验/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.xmsec.physicbird.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		CD6C94EC1D251C8C00AD43CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "物理实验/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.xmsec.physicbird.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		CD6C94EE1D251C8C00AD43CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "物理实验Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.xmsec.physicbird.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/物理实验.app/物理实验";
+			};
+			name = Debug;
+		};
+		CD6C94EF1D251C8C00AD43CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "物理实验Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.xmsec.physicbird.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/物理实验.app/物理实验";
+			};
+			name = Release;
+		};
+		CD6C94F11D251C8C00AD43CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "物理实验UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.xmsec.physicbird.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "物理实验";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CD6C94F21D251C8C00AD43CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "物理实验UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.xmsec.physicbird.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "物理实验";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD6C94BB1D251C8C00AD43CA /* Build configuration list for PBXProject "物理实验" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6C94E81D251C8C00AD43CA /* Debug */,
+				CD6C94E91D251C8C00AD43CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6C94EA1D251C8C00AD43CA /* Build configuration list for PBXNativeTarget "物理实验" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6C94EB1D251C8C00AD43CA /* Debug */,
+				CD6C94EC1D251C8C00AD43CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6C94ED1D251C8C00AD43CA /* Build configuration list for PBXNativeTarget "物理实验Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6C94EE1D251C8C00AD43CA /* Debug */,
+				CD6C94EF1D251C8C00AD43CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6C94F01D251C8C00AD43CA /* Build configuration list for PBXNativeTarget "物理实验UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6C94F11D251C8C00AD43CA /* Debug */,
+				CD6C94F21D251C8C00AD43CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD6C94B81D251C8C00AD43CA /* Project object */;
+}
