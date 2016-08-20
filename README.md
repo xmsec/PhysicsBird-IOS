@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # PhysicsBird-IOS
 PhysicsBird （物理实燕） 以下简称 this app or 本应用。
 ### Brief Introduction
@@ -8,6 +7,5 @@ Based on xcode 7.3.1 (swift)
 Developed 2016.8
 Using Toast third-party lib
 Has benn optimized to hide keyboard when using this app
-=======
-# PhysicsBird-IOS
->>>>>>> origin/master
+
+
