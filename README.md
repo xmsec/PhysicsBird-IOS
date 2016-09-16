@@ -7,6 +7,6 @@
 - Based on xcode 7.3.1 (swift)
 - Developed 2016.8
 - Using Toast third-party lib
-- Has benn optimized to hide keyboard when using this app
+- Has been optimized to hide keyboard when tapping outside textfield
 
 
